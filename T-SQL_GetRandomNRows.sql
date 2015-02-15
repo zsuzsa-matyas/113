@@ -3,11 +3,10 @@
 --		@numberOfRows: Number of random rows returned
 --		@sqlQuery: The SQL query to be executed 
 
--- Author: zsuzsa-matyas
--- Date: 26.10.2013
-
 -- Example for usage:
 --		EXEC GetRandomNRows 7, 'SELECT AddressId, AddressLine1, AddressLine2 FROM AdventureWorks2012.Person.Address' 
+
+-- Author: zsuzsa-matyas
 
 CREATE PROCEDURE [dbo].[GetRandomNRows] 
 	@numberOfRows int, 

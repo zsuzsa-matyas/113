@@ -3,11 +3,10 @@
 -- 		numberOfRows: Number of random rows returned
 -- 		sqlQuery: The SQL query to be executed 
 
--- Author: zsuzsa-matyas
--- Date: 26.10.2013
-
 -- Example for usage:
 -- 		CALL GetRandomNRows (0, 'SELECT * FROM sakila.address')
+
+-- Author: zsuzsa-matyas
 
 DROP PROCEDURE IF EXISTS GetRandomNRows;
 DELIMITER //
