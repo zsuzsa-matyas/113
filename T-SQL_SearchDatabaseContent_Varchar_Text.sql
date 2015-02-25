@@ -21,10 +21,6 @@ DECLARE @currentSchemaName nvarchar(255);
 DECLARE @currentTableName nvarchar(255);
 DECLARE @currentColumnName nvarchar(255);
 DECLARE @sqlQuery nvarchar(max);
---DECLARE @textToSearch nvarchar(255);
---DECLARE @databaseName nvarchar(255);
---SET @databaseName = 'AdventureWorks2012';
---SET @textToSearch = 'Bothell';
 
 -- creating a temporary table for storing all the table and column names
 SET @sqlQuery = 'IF (EXISTS (SELECT * ' + 
